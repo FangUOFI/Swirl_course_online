@@ -8,7 +8,7 @@
 
 
 - Class: cmd_question
-  Output: What is the data type for x below?
-  CorrectAnswer: numeric
-  AnswerTests: omnitest(correctExpr='"numeric"')
-  Hint: Try the class() function
+  Output: Add 2 and 2 together using the addition operator.
+  CorrectAnswer: 2 + 2
+  AnswerTests: omnitest(correctExpr='2 + 2')
+  Hint: Just type 2 + 2.
