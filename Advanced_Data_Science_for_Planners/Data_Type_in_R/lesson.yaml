@@ -12,3 +12,11 @@
   CorrectAnswer: 2 + 2
   AnswerTests: omnitest(correctExpr='2 + 2')
   Hint: Just type 2 + 2.
+
+- Class: cmd_question
+  Output: What is the data type for x? 
+x->5
+  CorrectAnswer: class(x)
+  AnswerTests: omnitest(correctExpr='class(x)')
+  Hint: Please try the class() function
+  
