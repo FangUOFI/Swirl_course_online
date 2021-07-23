@@ -6,12 +6,9 @@
   Organization: University of Illinois at Urbana-Champaign
   Version: 2.4.5
 
-- Class: text
-  Output: Welcome to your first exercise of "Data Types in R" in Advanced Data Science for Planners!
 
-
-
-x -> 5
+- Class: cmd_question
+  Output: What is the data type for x below?
   CorrectAnswer: numeric
-  AnswerTests: omnitest(correctExpr='numeric')
-  Hint: Please try the class() function
+  AnswerTests: omnitest(correctExpr='"numeric"')
+  Hint: Try the class() function
