@@ -9,22 +9,9 @@
 - Class: text
   Output: Welcome to your first exercise of "Data Types in R" in Advanced Data Science for Planners!
 
-- Class: cmd_question
-  Output: Execute the commends below. What is the data type for x?
-x  <- 5
 
+
+x -> 5
   CorrectAnswer: numeric
   AnswerTests: omnitest(correctExpr='numeric')
-  Hint: Try the class() function. 
-
-
-
-- Class: cmd_question
-  Output: Execute the commands below. Is y an integer, logical or numeric data?
-y <-5.0
-is.integer(y)
-is.numeric(y)
-is.logical(y)
-  CorrectAnswer: numeric
-  AnswerTests: omnitest(correctExpr='numeric')
-  Hint: Please check out what is.numeric(y) returns you!
+  Hint: Please try the class() function
